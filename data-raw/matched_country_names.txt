@@ -1,0 +1,263 @@
+IP Countries	Map Countries	Matched Countries
+Afghanistan	Afghanistan 	Afghanistan 
+Aland Islands	NA	Finland
+Albania	Albania	Albania
+Algeria	Algeria	Algeria
+American Samoa	American Samoa	American Samoa
+Andorra	Andorra	Andorra
+Angola	Angola	Angola
+Anguilla	Anguilla	Anguilla
+Antarctica	Antarctica	Antarctica
+Antigua and Barbuda	Antigua	Antigua
+Argentina	Argentina	Argentina
+Armenia	Armenia	Armenia
+Aruba	Aruba	Aruba
+NA	Ascension Island	NA
+Australia	Australia	Australia
+Austria	Austria	Austria
+Azerbaijan	Azerbaijan	Azerbaijan
+NA	Azores	NA
+Bahamas	Bahamas	Bahamas
+Bahrain	Bahrain	Bahrain
+Bangladesh	Bangladesh	Bangladesh
+Barbados	Barbados	Barbados
+NA	Barbuda	NA
+Belarus	Belarus	Belarus
+Belgium	Belgium	Belgium
+Belize	Belize	Belize
+Benin	Benin	Benin
+Bermuda	Bermuda	Bermuda
+Bhutan	Bhutan	Bhutan
+"Bolivia, Plurinational State of"	Bolivia	Bolivia
+"Bonaire, Sint Eustatius and Saba"	Bonaire	Bonaire
+Bosnia and Herzegovina	Bosnia and Herzegovina	Bosnia and Herzegovina
+Botswana	Botswana	Botswana
+Brazil	Brazil	Brazil
+British Indian Ocean Territory	NA	United Kingdom
+Brunei Darussalam	Brunei	Brunei
+Bulgaria	Bulgaria	Bulgaria
+Burkina Faso	Burkina Faso	Burkina Faso
+Burundi	Burundi	Burundi
+Cabo Verde	Cape Verde	Cape Verde
+Cambodia	Cambodia	Cambodia
+Cameroon	Cameroon	Cameroon
+Canada	Canada	Canada
+NA	Canary Islands	NA
+NA	NA	NA
+Cayman Islands	Cayman Islands	Cayman Islands
+Central African Republic	Central African Republic	Central African Republic
+Chad	Chad	Chad
+NA	Chagos Archipelago	NA
+Chile	Chile	Chile
+China	China	China
+NA	Christmas Island	NA
+NA	Cocos Islands	NA
+Colombia	Colombia	Colombia
+Comoros	Comoros	Comoros
+Congo	Democratic Republic of the Congo	Congo
+"Congo, The Democratic Republic of The"	Republic of Congo	Congo
+Cook Islands	Cook Islands	Cook Islands
+Costa Rica	Costa Rica	Costa Rica
+Cote D'ivoire	Ivory Coast	Ivory Coast
+Croatia	Croatia	Croatia
+Cuba	Cuba	Cuba
+Curacao	Curacao	Curacao
+Cyprus	Cyprus	Cyprus
+Czech Republic	Czech Republic	Czech Republic
+Denmark	Denmark	Denmark
+Djibouti	Djibouti	Djibouti
+Dominica	Dominica	Dominica
+Dominican Republic	Dominican Republic	Dominican Republic
+Ecuador	Ecuador	Ecuador
+Egypt	Egypt	Egypt
+El Salvador	El Salvador	El Salvador
+Equatorial Guinea	Equatorial Guinea	Equatorial Guinea
+Eritrea	Eritrea	Eritrea
+Estonia	Estonia	Estonia
+Ethiopia	Ethiopia	Ethiopia
+Falkland Islands (Malvinas)	Falkland Islands	Falkland Islands
+Faroe Islands	Faroe Islands	Faroe Islands
+Fiji	Fiji	Fiji
+Finland	Finland	Finland
+France	France	France
+French Guiana	French Guiana	French Guiana
+French Polynesia	French Polynesia	French Polynesia
+NA	French Southern and Antarctic Lands	NA
+Gabon	Gabon	Gabon
+Gambia	Gambia	Gambia
+Georgia	Georgia	Georgia
+Germany	Germany	Germany
+Ghana	Ghana	Ghana
+Gibraltar	NA	UK
+Greece	Greece	Greece
+Greenland	Greenland	Greenland
+Grenada	Grenada	Grenada
+NA	Grenadines	NA
+Guadeloupe	Guadeloupe	Guadeloupe
+Guam	Guam	Guam
+Guatemala	Guatemala	Guatemala
+Guernsey	Guernsey	Guernsey
+Guinea	Guinea	Guinea
+Guinea-Bissau	Guinea-Bissau	Guinea-Bissau
+Guyana	Guyana	Guyana
+Haiti	Haiti	Haiti
+Holy See	Vatican	Vatican
+NA	Heard Island	NA
+Honduras	Honduras	Honduras
+Hong Kong	NA	China
+Hungary	Hungary	Hungary
+Iceland	Iceland	Iceland
+India	India	India
+Indonesia	Indonesia	Indonesia
+"Iran, Islamic Republic of"	Iran	Iran
+Iraq	Iraq	Iraq
+Ireland	Ireland	Ireland
+Isle of Man	Isle of Man	Isle of Man
+Israel	Israel	Israel
+Italy	Italy	Italy
+Jamaica	Jamaica	Jamaica
+Japan	Japan	Japan
+Jersey	Jersey	Jersey
+Jordan	Jordan	Jordan
+Kazakhstan	Kazakhstan	Kazakhstan
+Kenya	Kenya	Kenya
+Kiribati	Kiribati	Kiribati
+"Korea, Democratic People's Republic of"	North Korea	North Korea
+"Korea, Republic of"	South Korea	South Korea
+NA	Kosovo	Kosovo
+Kuwait	Kuwait	Kuwait
+Kyrgyzstan	Kyrgyzstan	Kyrgyzstan
+Lao People's Democratic Republic	Laos	Laos
+Latvia	Latvia	Latvia
+Lebanon	Lebanon	Lebanon
+Lesotho	Lesotho	Lesotho
+Liberia	Liberia	Liberia
+Libya	Libya	Libya
+Liechtenstein	Liechtenstein	Liechtenstein
+Lithuania	Lithuania	Lithuania
+Luxembourg	Luxembourg	Luxembourg
+Macao	NA	China
+"Macedonia, The Former Yugoslav Republic of"	Macedonia	Macedonia
+Madagascar	Madagascar	Madagascar
+NA	Madeira Islands	Madeira Islands
+Malawi	Malawi	Malawi
+Malaysia	Malaysia	Malaysia
+Maldives	Maldives	Maldives
+Mali	Mali	Mali
+Malta	Malta	Malta
+Marshall Islands	Marshall Islands	Marshall Islands
+Martinique	Martinique	Martinique
+Mauritania	Mauritania	Mauritania
+Mauritius	Mauritius	Mauritius
+Mayotte	Mayotte	Mayotte
+Mexico	Mexico	Mexico
+"Micronesia, Federated States of"	Micronesia	Micronesia
+"Moldova, Republic of"	Moldova	Moldova
+Monaco	Monaco	Monaco
+Mongolia	Mongolia	Mongolia
+Montenegro	Montenegro	Montenegro
+Montserrat	Montserrat	Montserrat
+Morocco	Morocco	Morocco
+Mozambique	Mozambique	Mozambique
+Myanmar	Myanmar	Myanmar
+Namibia	Namibia	Namibia
+Nauru	Nauru	Nauru
+Nepal	Nepal	Nepal
+Netherlands	Netherlands	Netherlands
+NA	Nevis	NA
+New Caledonia	New Caledonia	New Caledonia
+New Zealand	New Zealand	New Zealand
+Nicaragua	Nicaragua	Nicaragua
+Niger	Niger	Niger
+Nigeria	Nigeria	Nigeria
+Niue	Niue	Niue
+Norfolk Island	Norfolk Island	Norfolk Island
+Northern Mariana Islands	Northern Mariana Islands	Northern Mariana Islands
+Norway	Norway	Norway
+Oman	Oman	Oman
+Pakistan	Pakistan	Pakistan
+Palau	Palau	Palau
+"Palestine, State of"	Palestine	Palestine
+Panama	Panama	Panama
+Papua New Guinea	Papua New Guinea	Papua New Guinea
+Paraguay	Paraguay	Paraguay
+Peru	Peru	Peru
+Philippines	Philippines	Philippines
+NA	Pitcairn Islands	NA
+Poland	Poland	Poland
+Portugal	Portugal	Portugal
+Puerto Rico	Puerto Rico	Puerto Rico
+Qatar	Qatar	Qatar
+Reunion	Reunion	Reunion
+Romania	Romania	Romania
+Russian Federation	Russia	Russia
+Rwanda	Rwanda	Rwanda
+NA	Saba	NA
+Saint Barthelemy	Saint Barthelemy	Saint Barthelemy
+NA	Saint Helena	NA
+Saint Kitts and Nevis	Saint Kitts	Saint Kitts
+Saint Lucia	Saint Lucia	Saint Lucia
+Saint Martin (French Part)	Saint Martin	Saint Martin
+Saint Pierre and Miquelon	Saint Pierre and Miquelon	Saint Pierre and Miquelon
+Saint Vincent and The Grenadines	Saint Vincent	Saint Vincent
+Samoa	Samoa	Samoa
+San Marino	San Marino	San Marino
+Sao Tome and Principe	Sao Tome and Principe	Sao Tome and Principe
+Saudi Arabia	Saudi Arabia	Saudi Arabia
+Senegal	Senegal	Senegal
+Serbia	Serbia	Serbia
+Seychelles	Seychelles	Seychelles
+NA	Siachen Glacier	India
+Sierra Leone	Sierra Leone	Sierra Leone
+Singapore	Singapore	Singapore
+NA	Sint Eustatius	NA
+Sint Maarten (Dutch Part)	Sint Maarten	Sint Maarten
+Slovakia	Slovakia	Slovakia
+Slovenia	Slovenia	Slovenia
+Solomon Islands	Solomon Islands	Solomon Islands
+Somalia	Somalia	Somalia
+South Africa	South Africa	South Africa
+South Georgia and The South Sandwich Islands	South Georgia	South Georgia
+NA	South Sandwich Islands	NA
+South Sudan	South Sudan	South Sudan
+Spain	Spain	Spain
+Sri Lanka	Sri Lanka	Sri Lanka
+Sudan	Sudan	Sudan
+Suriname	Suriname	Suriname
+Swaziland	Swaziland	Swaziland
+Sweden	Sweden	Sweden
+Switzerland	Switzerland	Switzerland
+Syrian Arab Republic	Syria	Syria
+"Taiwan, Province of China"	Taiwan	Taiwan
+Tajikistan	Tajikistan	Tajikistan
+"Tanzania, United Republic of"	Tanzania	Tanzania
+Thailand	Thailand	Thailand
+Timor-Leste	Timor-Leste	Timor-Leste
+NA	Tobago	Tobago
+Togo	Togo	Togo
+Tokelau	NA	New Zealand
+Tonga	Tonga	Tonga
+Trinidad and Tobago	Trinidad	Trinidad
+Tunisia	Tunisia	Tunisia
+Turkey	Turkey	Turkey
+Turkmenistan	Turkmenistan	Turkmenistan
+Turks and Caicos Islands	Turks and Caicos Islands	Turks and Caicos Islands
+Tuvalu	NA	NA
+Uganda	Uganda	Uganda
+United Kingdom	UK	UK
+Ukraine	Ukraine	Ukraine
+United Arab Emirates	United Arab Emirates	United Arab Emirates
+Uruguay	Uruguay	Uruguay
+United States	USA	USA
+United States Minor Outlying Islands	NA	NA
+Uzbekistan	Uzbekistan	Uzbekistan
+Vanuatu	Vanuatu	Vanuatu
+"Venezuela, Bolivarian Republic of"	Venezuela	Venezuela
+Viet Nam	Vietnam	Vietnam
+"Virgin Islands, British"	Virgin Islands	Virgin Islands
+"Virgin Islands, U.S."	NA	Virgin Islands
+Wallis and Futuna	Wallis and Futuna	Wallis and Futuna
+NA	Western Sahara	NA
+Yemen	Yemen	Yemen
+Zambia	Zambia	Zambia
+Zimbabwe	Zimbabwe	Zimbabwe

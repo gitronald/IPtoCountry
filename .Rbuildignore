@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^data-extra$
+^lab$
+^tests$
+^.travis.yml
