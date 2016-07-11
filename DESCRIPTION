@@ -3,7 +3,7 @@ Title: Convert IP Addresses to Country Names or Full Location with Geoplotting
 Version: 0.0.1
 Date: 2016-06-15
 Authors@R: c(
-    person(c("Ronald", "E."), "Robertson",, "ronaldrobertson8@yahoo.com", c("cre", "aut")),
+    person("Ronald", "E.", "Robertson", email = "ronaldrobertson8@yahoo.com", c("cre", "aut")),
     person("Felix", "Tran", email = "felix.2930@gmail.com", role = "aut"),
     person("Jonathan", "Mejia", email = "mejiajon@yahoo.com", role = "aut"),
     person("Christine", "Mourani", email = "cmourani12@yahoo.com", role = "aut")
