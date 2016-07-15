@@ -20,6 +20,5 @@ Convert IP address to country name
 }
 \examples{
 IP_country(IPs)
-
 }
 

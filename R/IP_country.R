@@ -18,7 +18,6 @@ utils::globalVariables(c("ip2location.lite.db1", "IPfrom", "IPto",
 #' @export
 #' @examples
 #' IP_country(IPs)
-#'
 IP_country <- function(IP.address, IP.database = NULL) {
   IP.integer <- IP_integer(IP.address)
   country <- IP_lookup(IP.integer, IP.database)
@@ -37,7 +36,6 @@ IP_country <- function(IP.address, IP.database = NULL) {
 #' @export
 #' @examples
 #' head(IP_integer(IPs))
-#'
 IP_integer <- function(IP.address) {
 
   ip.split <- IP_split(IP.address)
@@ -74,10 +72,11 @@ IP_split <- function(IP.address, integer = TRUE, data.frame = TRUE) {
 #'   default database from \url{http://lite.ip2location.com}
 #' @return Returns country from IP integers
 #' @importFrom data.table setDT setkey data.table foverlaps
+#' @importFrom devtools install_github
 #' @export
 #' @examples
 #' IP.integer <- IP_integer(IPs)
-#' IP_lookup(IP.integer)
+#' head(IP_lookup(IP.integer))
 IP_lookup <- function(IP.integer, IP.database = NULL) {
   if(is.null(IP.database)) IP.database <- ip2location.lite.db1
   DT <- setDT(IP.database)
@@ -101,8 +100,11 @@ IP_lookup <- function(IP.integer, IP.database = NULL) {
 #' @importFrom data.table setDT setkey data.table foverlaps
 #' @export
 #' @examples
-#' IP.integer <- IP_integer(IPs)
-#' IP_lookup_full(IP.integer)
+#' if(interactive()) {
+#'   IP.integer <- IP_integer(IPs)
+#'   head(IP_lookup_full(IP.integer))
+#' }
+#'
 IP_lookup_full <- function(IP.integer, IP.database = NULL) {
   if(is.null(IP.database)) IP.database <- ip2location.lite.db11
   DT <- setDT(IP.database)
@@ -140,30 +142,32 @@ IP_lookup_full <- function(IP.integer, IP.database = NULL) {
 #'
 #' @export
 #' @examples
-#' IP_location(IPs)
-#'
+#' # Only run this example in interactive R sessions
+#' if(interactive()) {
+#'   IP.location = IP_location(IPs)
+#'   head(IP.location)
+#' }
 IP_location <- function(IP.address, IP.database = NULL) {
-  "ip2location_data" %in% rownames(installed.packages())
-  if("ip2location_data" %in% rownames(installed.packages()) == FALSE) {
-    ask.download()
+  "ip2locationData" %in% rownames(installed.packages())
+  if("ip2locationData" %in% rownames(installed.packages()) == FALSE) {
+    download_prompt()
   } else {
-    library(ip2location_data)
+    IP.integer <- IP_integer(IP.address)
+    country <- IP_lookup_full(IP.integer, IP.database)
+    return(country)
   }
-
-  IP.integer <- IP_integer(IP.address)
-  country <- IP_lookup_full(IP.integer, IP.database)
-  return(country)
 }
 
 
-ask.download= function(){
-  print("Would you like to download data necessary to run this function?")
-  choices= c("yes", "no")
-  x = menu(choices, graphics= FALSE, title= NULL)
 
-  if (x == 1) {
-    devtools::install_github("gitronald/ip2location_data")
-    library(ip2location_data)
+#' @importFrom utils installed.packages menu
+download_prompt = function() {
+  print("Would you like to download the data necessary to run this function?")
+  choices = c("yes", "no")
+  prompt = menu(choices, graphics= FALSE, title= NULL)
+
+  if (prompt == 1) {
+    install_github("gitronald/ip2locationData")
   } else {
     stop("Function cancelled")
   }

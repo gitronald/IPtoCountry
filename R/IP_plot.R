@@ -19,9 +19,9 @@ IP_plot = function(IP.address) {
   mapData = map_data("world")
   countries= IP_country(IP.address)
 
-  dft = dft(countries, perc= F)
+  ipData = dft(countries, perc = F)
+  names(ipData)[1] = "group"
 
-  ipData = dft
   countryNames = sysdata
   countryNames$IP.Countries = gsub("\"", "", countryNames$IP.Countries)
 

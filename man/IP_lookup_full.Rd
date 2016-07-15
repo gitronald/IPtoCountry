@@ -19,7 +19,10 @@ Returns country from IP integers
 Match IP integer to all location data
 }
 \examples{
-IP.integer <- IP_integer(IPs)
-IP_lookup_full(IP.integer)
+if(interactive()) {
+  IP.integer <- IP_integer(IPs)
+  head(IP_lookup_full(IP.integer))
+}
+
 }
 
