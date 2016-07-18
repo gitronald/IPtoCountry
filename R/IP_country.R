@@ -81,6 +81,7 @@ IP_lookup <- function(IP.integer, IP.database = NULL) {
   if(is.null(IP.database)) IP.database <- ip2location.lite.db1
   DT <- setDT(IP.database)
   setkey(DT, IPfrom, IPto)
+  IP.integer <- IP_integer(IP.integer)
   DT2 <- data.table(IPfrom = IP.integer, IPto = IP.integer)
   res <- foverlaps(DT2, DT[, .(IPfrom, IPto)], type="within")
   res[, i:=seq_len(nrow(res))]
@@ -109,6 +110,7 @@ IP_lookup_full <- function(IP.integer, IP.database = NULL) {
   if(is.null(IP.database)) IP.database <- ip2location.lite.db11
   DT <- setDT(IP.database)
   setkey(DT, IPfrom, IPto)
+  IP.integer <- IP_integer(IP.integer)
   DT2 <- data.table(IPfrom = IP.integer, IPto = IP.integer)
   res <- foverlaps(DT2, DT[, .(IPfrom, IPto)], type="within")
   res[, i:=seq_len(nrow(res))]
