@@ -20,6 +20,6 @@ Match IP integer to country name
 }
 \examples{
 IP.integer <- IP_integer(IPs)
-IP_lookup(IP.integer)
+head(IP_lookup(IP.integer))
 }
 

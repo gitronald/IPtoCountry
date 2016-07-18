@@ -21,7 +21,10 @@ Convert IP address to location (country name, region, city, zip code,
 latitude, longitude, and GMT)
 }
 \examples{
-IP_location(IPs)
-
+# Only run this example in interactive R sessions
+if(interactive()) {
+  IP.location = IP_location(IPs)
+  head(IP.location)
+}
 }
 

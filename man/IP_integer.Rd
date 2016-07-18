@@ -20,6 +20,5 @@ Convert IP address to IP integer
 }
 \examples{
 head(IP_integer(IPs))
-
 }
 
