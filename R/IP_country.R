@@ -140,6 +140,7 @@ IP_lookup_full <- function(IP.integer, IP.database = NULL) {
 #' @return Returns a data.frame containin the country name, region, city, and
 #'   zip code corresponding to \code{IP.address}
 #'
+#' @importFrom install.load load_package
 #' @export
 #' @examples
 #' # Only run this example in interactive R sessions
@@ -152,6 +153,7 @@ IP_location <- function(IP.address, IP.database = NULL) {
   if("ip2locationData" %in% rownames(installed.packages()) == FALSE) {
     download_prompt()
   } else {
+    load_package('ip2locationData')
     IP.integer <- IP_integer(IP.address)
     country <- IP_lookup_full(IP.integer, IP.database)
     return(country)

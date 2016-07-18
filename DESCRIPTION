@@ -3,11 +3,7 @@ Title: Convert IP Addresses to Country Names or Full Location with Geoplotting
 Version: 0.0.1
 Date: 2016-06-15
 Authors@R: c(
-<<<<<<< HEAD
-    person(c("Ronald", "E."), "Robertson", email = "ronaldrobertson8@yahoo.com", c("cre", "aut")),
-=======
     person(c("Ronald", "E."), "Robertson", email = "ronaldrobertson8@yahoo.com", role = c("cre", "aut")),
->>>>>>> 36f2e0357be8a12ba5ddb830ed99fc3520390516
     person(c("Felix", "W."), "Tran", email = "felix.2930@gmail.com", role = "aut"),
     person("Jonathan", "Mejia", email = "mejiajon@yahoo.com", role = "aut"),
     person("Christine", "Mourani", email = "cmourani12@yahoo.com", role = "aut")
@@ -23,7 +19,8 @@ Imports:
     dtables,
     maps,
     scales,
-    devtools
+    devtools,
+    install.load
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
