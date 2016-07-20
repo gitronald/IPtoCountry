@@ -1,7 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^cran-comments\.md$
 ^data-raw$
-^data-extra$
-^lab$
-^tests$
-^.travis.yml
+^\.travis\.yml
