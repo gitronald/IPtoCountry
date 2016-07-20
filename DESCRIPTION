@@ -19,7 +19,8 @@ Imports:
     dtables,
     maps,
     scales,
-    devtools
+    devtools,
+    install.load
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
