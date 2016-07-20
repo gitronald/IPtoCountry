@@ -1,7 +1,7 @@
 Package: IPtoCountry
 Title: Convert IP Addresses to Country Names or Full Location with Geoplotting
 Version: 0.0.1
-Date: 2016-06-15
+Date: 2016-07-20
 Authors@R: c(
     person(c("Ronald", "E."), "Robertson", email = "ronaldrobertson8@yahoo.com", role = c("cre", "aut")),
     person(c("Felix", "W."), "Tran", email = "felix.2930@gmail.com", role = "aut"),
