@@ -1,16 +1,18 @@
 Package: IPtoCountry
 Title: Convert IP Addresses to Country Names or Full Location with Geoplotting
 Version: 0.0.1
-Date: 2016-07-20
+Date: 2016-07-21
 Authors@R: c(
-    person(c("Ronald", "E."), "Robertson", email = "ronaldrobertson8@yahoo.com", role = c("cre", "aut")),
+    person(c("Ronald", "E."), "Robertson", email = "robertson.ron@husky.neu.edu", role = c("cre", "aut")),
     person(c("Felix", "W."), "Tran", email = "felix.2930@gmail.com", role = "aut"),
     person("Jonathan", "Mejia", email = "mejiajon@yahoo.com", role = "aut"),
     person("Christine", "Mourani", email = "cmourani12@yahoo.com", role = "aut")
     )
 Description: Tools for identifying the origins of IP addresses. Includes functions for converting IP addresses
-  to country names, location details (region, city, zip, latitude, longitude), IP codes, binary values, as well as
-  a function for plotting IP locations on a world map. The default IP databases are from lite.ip2location.com.
+  to country names, location details (region, city, zip, latitude, longitude), IP codes, binary values, as well
+  as a function for plotting IP locations on a world map. This product includes IP2Location LITE data available
+  from <http://www.ip2location.com> and is is available by Creative Commons Attribution-ShareAlike 4.0 Interational
+  license (CC-BY-SA 4.0).
 Depends:
     R (>= 3.2.3)
 Imports:
