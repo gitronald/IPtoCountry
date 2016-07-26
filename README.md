@@ -2,10 +2,9 @@
 
 [![Build Status](https://travis-ci.org/gitronald/IPtoCountry.svg?branch=master)](https://travis-ci.org/gitronald/IPtoCountry)
 
-<!--
+
 [![CRAN_Downloads_Badge](http://cranlogs.r-pkg.org/badges/grand-total/IPtoCountry)](http://cran.r-project.org/package=IPtoCountry)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/IPtoCountry)](http://cran.r-project.org/package=IPtoCountry)
--->
 
 
 * Functions for converting IP addresses (IPv4) into country names or location details in R.
@@ -93,7 +92,7 @@ Levels: China
 ------
 ### IP_location - Convert IP address into detailed location 
 * Produces dataframe with country abreviation, country name, region, city, zip code, latitude, longitude, and GMT
-* Requires download of a larger database to operate, will prompt you to download an R package on Github (https://github.com/gitronald/ip2locationData/blob/master/data/ip2location.lite.db11.rda) containing the data (~40 MB) if you haven't used the function before.
+* Requires download of a larger database to operate, will prompt you to download an R package on Github (https://github.com/gitronald/ip2locationData) containing the data (~40 MB) if you haven't used the function before.
 
 ``` {r}
 > IP_location("180.20.23.162")
