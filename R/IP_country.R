@@ -57,6 +57,7 @@ IP_integer <- function(IP.address) {
 #' @examples
 #' head(IP_split(IPs))
 IP_split <- function(IP.address, integer = TRUE, data.frame = TRUE) {
+  IP.address = as.character(IP.address)
   ip.split <- strsplit(IP.address, "\\.")
   ip.split <- do.call(rbind, ip.split)
   if(integer) ip.split <- apply(ip.split, 2, as.integer)
