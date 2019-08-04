@@ -91,7 +91,7 @@ Levels: China
 
 ------
 ### IP_location - Convert IP address into detailed location 
-* Produces dataframe with country abreviation, country name, region, city, zip code, latitude, longitude, and GMT
+* Produces dataframe with country abbreviation, country name, region, city, zip code, latitude, longitude, and GMT
 * Requires download of a larger database to operate, and will prompt you to download an R package on Github (https://github.com/gitronald/ip2locationData) containing the data (~40 MB) if you haven't used the function before.
 
 ``` {r}
